@@ -4,6 +4,7 @@ namespace ComputanPackages\Hubspot;
 
 use Illuminate\Support\Facades\Facade;
 
+/* @mixin ComputanPackages\Hubspot\Hubspot */
 
 class HubspotFacade extends Facade
 {
