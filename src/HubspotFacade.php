@@ -4,9 +4,7 @@ namespace ComputanPackages\Hubspot;
 
 use Illuminate\Support\Facades\Facade;
 
-/**
- * @see \ComputanPackages\Hubspot\Skeleton\SkeletonClass
- */
+
 class HubspotFacade extends Facade
 {
     /**

@@ -5,7 +5,14 @@
 This is a wrapper for the [hubspot/hubspot-php](https://github.com/HubSpot/hubspot-php) package and gives the user a Service Container binding and facade of the `SevenShores\Hubspot\Factory::create('api-key')` function.
 
 ## Installation
-1. `composer require computan-packages/hubspot`
+1. ```json
+   "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/computan-packages/hubspot"
+      }
+   ],
+   ```
 2. Get a HubSpot API Key from the Intergrations page of your HubSpot account.
 3. Laravel 5.4 or earlier, in your `config/app.php` file:
     - Add `ComputanPackages\Hubspot\HubSpotServiceProvider::class` to your providers array.
