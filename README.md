@@ -5,6 +5,7 @@
 This is a wrapper for the [hubspot/hubspot-php](https://github.com/HubSpot/hubspot-php) package and gives the user a Service Container binding and facade of the `SevenShores\Hubspot\Factory::create('api-key')` function.
 
 ## Installation
+Add in composer.json file
 1. ```json
    "repositories": [
       {
