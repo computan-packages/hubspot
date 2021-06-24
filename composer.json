@@ -1,0 +1,44 @@
+{
+  "name": "computan-packages/hubspot",
+  "description": "Laravel wrapper for hubspot API client",
+  "keywords": [
+    "computan-packages",
+    "hubspot",
+    "laravel",
+    "api",
+    "service"
+  ],
+  "homepage": "https://github.com/computan-packages/hubspot",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Huzaifa Ahmad",
+      "email": "huzaifa@computan.net",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "illuminate/support": "^8.0",
+    "hubspot/hubspot-php": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ComputanPackages\\Hubspot\\": "src"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ComputanPackages\\Hubspot\\HubspotServiceProvider"
+      ],
+      "aliases": {
+        "Hubspot": "ComputanPackages\\Hubspot\\HubspotFacade"
+      }
+    }
+  }
+}
